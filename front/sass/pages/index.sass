@@ -1,0 +1,289 @@
+body
+  background: #040C1C
+.container
+  width: 1127px
+  margin: 0 auto
+.header
+  min-height: 547px
+  //background: url('../img/top_bg.jpg') top center no-repeat
+  background: url('../img/top_bg.png') top center no-repeat
+  //background-size: cover
+  background-size: contain
+  //background-position-x: right
+  &__top
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-top: 16px
+  &__logo
+    display: block
+    width: 130px
+    .mob
+      display: none
+    .desk
+      display: block
+  &__signup
+    width: 91px
+    height: 36px
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 1px solid #FFE65F
+    font-family: 'Saira-Medium'
+    font-size: 14px
+    line-height: 20px
+    text-decoration: none
+    color: #FFE65F
+    &:hover
+      background: #FFE65F
+      color: #040C1C
+  &__info
+    padding-top: 92px
+    &__btn
+      width: 362px
+      height: 56px
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-top: 44px
+      font-family: 'Saira-Medium'
+      font-size: 18px
+      line-height: 20px
+      text-decoration: none
+      background: #FFE65F
+      color: #040C1C
+      &:hover
+        background: none
+        border: 1px solid #FFE65F
+        color: #FFE65F
+
+  &__cashback
+    width: 377px
+    position: relative
+    font-family: 'ChakraPetch-Bold'
+    color: #fff
+    p
+      padding-bottom: 2px
+      font-size: 72px
+      line-height: 64px
+      text-transform: uppercase
+      text-shadow: 6px 6px 0px rgba(46, 21, 125, 0.36)
+    &__fs
+      width: 230px
+      height: 65px
+      position: absolute
+      top: -13px
+      right: -40px
+      background: url('../img/fps_bg.png') top left no-repeat
+      background-size: cover
+      p
+        position: absolute
+        right: 20px
+        padding: 0
+        font-size: 46px
+        line-height: 64px
+        text-shadow: 6px 6px 0px rgba(46, 21, 125, 0.36)
+  &__steps
+    width: 938px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 94px auto 0
+  &__step
+    width: 278px
+    height: 84px
+    padding: 2px
+    background: linear-gradient(95.07deg, #DC00FF 1.29%, #3CF5FF 100%)
+    box-shadow: 0px 0px 25px #6700FF
+    &__content
+      width: 100%
+      height: 100%
+      position: relative
+      display: flex
+      align-items: center
+      background: #5A23B4
+    &__icon
+      width: 48px
+      height: 48px
+      margin: 0 12px 0 11.5px
+    &__title
+      font-family: 'ChakraPetch-Bold'
+      font-size: 24px
+      line-height: 28px
+      text-transform: uppercase
+      color: #fff
+    &__description
+      font-family: 'Saira-Regular'
+      font-size: 16px
+      line-height: 24px
+      color: rgba(255, 255, 255, 0.5)
+    &__number
+      position: absolute
+      top: 2px
+      right: 10px
+      font-family: 'Saira-Regular'
+      font-size: 12px
+      line-height: 16px
+      color: rgba(255, 255, 255, 0.5)
+  &__separator
+    width: 36px
+
+.bonuses
+  position: relative
+  max-width: 1440px
+  margin: 0 auto
+  .gift-coin
+    width: 311px
+    position: absolute
+    right: 0
+    top: -90px
+  .container
+    width: 531px
+    margin: 72px auto 0
+  &__item
+    width: 100%
+    height: 48px
+    margin-bottom: 24px
+    font-family: 'ChakraPetch-Bold'
+    font-size: 24px
+    line-height: 28px
+    background: url('../img/bonus_border.png') bottom left no-repeat
+    background-position-y: 24px
+    background-size: cover
+    background-position-x: -41px
+    color: #fff
+    &::before
+      content: "\2022"
+      color: #fff
+      margin-left: 12px
+      display: inline-block
+      width: 22px
+
+.bottom
+  padding-bottom: 122px
+  position: relative
+  background: url('../img/bottom_bg.png') top center no-repeat
+  background-size: cover
+.payments
+  width: 937px
+  margin: 58px auto 0
+  &__btn
+    width: 362px
+    height: 56px
+    display: flex
+    align-items: center
+    justify-content: center
+    box-sizing: border-box
+    margin: 52px auto 0
+    font-family: 'Saira-Medium'
+    font-size: 18px
+    line-height: 20px
+    text-decoration: none
+    background: #FFE65F
+    color: #040C1C
+    &:hover
+      background: none
+      border: 1px solid #FFE65F
+      color: #FFE65F
+.games
+  padding-top: 88px
+  &__title
+    font-family: 'ChakraPetch-Bold'
+    font-size: 32px
+    line-height: 40px
+    text-transform: uppercase
+    text-align: center
+    color: #fff
+  &__cards
+    width: 744px
+    display: flex
+    justify-content: space-between
+    margin: 0 auto
+    padding-top: 58px
+  &__card
+    width: 204px
+    height: 258px
+    box-sizing: border-box
+    padding: 22px 0 0
+    background: url('../img/games_bg.png') center center no-repeat
+    background-size: cover
+    box-shadow: 0px 0px 25px rgba(113, 165, 255, 0.59)
+    &__img
+      width: 130px
+      margin: 0 auto
+    &__title
+      padding-top: 12px
+      font-family: 'ChakraPetch-Bold'
+      font-size: 18px
+      line-height: 20px
+      text-align: center
+      color: #ffffff
+    &__btn
+      width: 168px
+      height: 36px
+      display: flex
+      align-items: center
+      justify-content: center
+      border: 1px solid #FFE65F
+      margin: 32px auto 0
+      font-family: 'Saira-Medium'
+      font-size: 14px
+      line-height: 20px
+      text-decoration: none
+      color: #FFE65F
+      &:hover
+        background: #FFE65F
+        color: #040C1C
+.money-coin
+  width: 222px
+  position: absolute
+  left: 0
+  bottom: 368px
+.gift-bottom-coin
+  display: none
+  width: 303px
+  position: absolute
+  right: 0
+  bottom: 203px
+.percent-coin
+  width: 303px
+  position: absolute
+  right: 0
+  bottom: 203px
+.footer
+  height: 132px
+  display: flex
+  align-items: center
+  background: #0C1028
+  &__container
+    width: 1080px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin: 0 auto
+  &__left
+    p
+      padding-top: 13px
+      font-family: 'Saira-Medium'
+      font-size: 14px
+      line-height: 20px
+      color: rgba(255, 255, 255, 0.5)
+  &__logo
+    display: block
+    width: 130px
+  &__signup
+    width: 220px
+    height: 44px
+    display: flex
+    align-items: center
+    justify-content: center
+    box-sizing: border-box
+    border: 1px solid #FFE65F
+    font-family: 'Saira-Medium'
+    font-size: 18px
+    line-height: 20px
+    text-decoration: none
+    color: #FFE65F
+    &:hover
+      background: #FFE65F
+      color: #040C1C
